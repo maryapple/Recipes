@@ -1,0 +1,40 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+header{
+	width: 100%;
+	display: flex;
+	background: #000;
+	background-image: url(img/main_image.png);
+}
+
+.header_logo{
+	margin-top: 0.3%;
+	margin-left: 13.1%;
+	width: 4.3%;
+}
+
+nav{
+	margin-top: 50px;
+	margin-left: 61.2%;
+}
+
+.topnav a{
+	color: #fff;
+	text-align: center;
+	padding-right: 29px;
+}
