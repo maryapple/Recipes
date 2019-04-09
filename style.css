@@ -42,6 +42,10 @@ nav{
 	font-size: 13px;
 }
 
+.topnav a:hover{
+	border-bottom: 3px solid orange;
+}
+
 main{
 	display: flex;
 	/*flex-direction: column;*/
@@ -55,7 +59,7 @@ main{
 	color: #fff;
 	padding-top: 328px;
 	width: 100%;
-	padding-bottom: 250px;
+	padding-bottom: 220px;
 }
 
 .fav{
@@ -100,4 +104,118 @@ p{
 .getrewarded{
 	text-decoration: underline;
 	font-weight: 700;
+}
+
+#get_action{
+	width: 100%;
+	background: #fff;
+	text-align: center;
+	padding: 100px 0 100px 0;
+	color: #000;
+	display: flex;
+}
+
+.get_action{
+	display: flex;
+}
+
+.get_action h3{
+	height: 14px;
+}
+
+.get_action p{
+	width: 360px;
+}
+
+.get_photo{
+	width: 20px;
+	margin: 0 128px 20px 128px;
+}
+
+.get{
+	padding-right: 5px;
+}
+
+#iphone{
+	background: #f7f7f7;
+	width: 100%;
+	display: flex;
+}
+
+.wrapper{
+	display: flex;
+	padding-top: 109px;
+}
+
+.col1{
+	width: 520px;
+}
+
+.col2{
+	width: 540px;
+	padding-top: 85px;
+}
+
+.col2 p{
+	font-size: 12px;
+	font-weight: 500;
+	width: 530px;
+}
+
+.line{
+	width: 90px;
+	background: #f57365;
+	height: 1px;
+}
+
+.para1{
+	padding: 20px 0 0;
+}
+
+.iphone{
+	width: 450px;
+}
+
+.shops{
+	padding-top: 35px;
+	display: flex;
+}
+
+.appst{
+	padding-right: 10px;
+}
+
+@media (max-width: 850px) {
+	.topnav a{
+		display: none;
+	}
+
+	nav{
+		width: 100%;
+	}
+
+	.topnav a.icon{
+		display: block;
+		font-size: 20px;
+		/*margin-top: -17px;*/
+		float: right;
+	}
+
+	.topnav.responsive{
+		position: relative;
+		/*top: 10px;*/
+		/*left: -50px; */
+	}
+
+	.topnav.responsive a.icon{
+		position: absolute;
+		top: 0px;
+		right: -100px;
+	}
+
+	.topnav.responsive a{
+		float: none;
+		display: block;
+		text-align: left;
+	}
 }
