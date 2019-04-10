@@ -94,7 +94,7 @@ main{
 	padding-top: 23px;
 }
 
-p{
+.recipes p{
 	padding-top: 35px;
 	font-size: 11px;
 	letter-spacing: 2px;
@@ -121,6 +121,7 @@ p{
 
 .get_action h3{
 	height: 14px;
+	padding-bottom: 10px;
 }
 
 .get_action p{
@@ -134,6 +135,10 @@ p{
 
 .get{
 	padding-right: 5px;
+}
+
+.get .line{
+	margin: auto;
 }
 
 #iphone{
@@ -183,6 +188,113 @@ p{
 
 .appst{
 	padding-right: 10px;
+}
+
+#review{
+	background-image: url(img/review_background.png);
+	width: 100%;
+	display: flex;
+}
+
+.review{
+	padding-top: 80px;
+	text-align: center;
+}
+
+.review p{
+	color: #fff;
+}
+
+.thanks{
+	width: 800px;
+	display: block;
+	font-size: 25px;
+	padding: 25px 148px 31px 148px;
+}
+
+.dots{
+	padding-top: 40px;
+	padding-bottom: 75px;
+}
+
+#food{
+	width: 100%;
+	/*display: flex;*/
+}
+
+.brow{
+	padding-top: 100px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.foodgrid{
+	width: 100%;
+	display: flex;
+}
+
+.foodpic{
+	width: 303px;
+}
+
+.numbers_grid{
+	display: flex;
+	width: 100%;
+}
+
+.numbers{
+	display: flex;
+	text-align: center;
+	width: 100%;
+	padding: 65px 0;
+}
+
+.num{
+	padding-right: 110px;
+}
+
+.num h1{
+	font-size: 32px;
+	padding-bottom: 12px;
+}
+
+footer{
+	background: #f7f7f7;
+}
+
+.footer_content{
+	display: flex;
+	width: 100%;
+}
+
+.footer_info{
+	padding: 43px 0;
+	font-size: 12px;
+}
+
+.lin{
+	height: 1px;
+	margin-top: 0;
+}
+
+.year{
+	float: left;
+	opacity: 0.3;
+}
+
+.designer{
+	float: right;
+}
+
+.site{
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+.des{
+	opacity: 0.5;
+	letter-spacing: 3px;
 }
 
 @media (max-width: 850px) {
