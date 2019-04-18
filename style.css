@@ -319,6 +319,10 @@ footer{
 	.container{
 		padding: 0 7%;
 	}
+
+	.foodpic{
+		width: 17%;
+	}
 }
 
 @media (max-width: 1305px) {
